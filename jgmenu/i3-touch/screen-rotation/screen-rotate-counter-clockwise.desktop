@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Name=Screen Rotate Counter Clockwise
+Comment=Rotate Screen  Counter Clockwise
+Type=Application
+Exec=/home/ad2/.config/jgmenu/i3-touch/screen-rotation/screen-rotate-counter-clockwise.sh
+Icon=/home/ad2/.config/jgmenu/i3-touch/icons-light/display-rotate-counter-clockwise.svg
+Terminal=false
+Catagories=Settings
+StartupNotify=true
+Name[en_US]=Screen Rotate Counter Clockwise

@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Name=Screen Rotate Right
+Comment=Rotate Screen Right or Back to Normal
+Type=Application
+Exec=/home/ad2/.config/jgmenu/i3-touch/screen-rotation/screen-rotate-right.sh
+Icon=/home/ad2/.config/jgmenu/i3-touch/icons-light/display-rotate.svg
+Terminal=false
+Catagories=Settings
+StartupNotify=true
+Name[en_US]=Screen Rotate Right

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="0.533333in"
+   height="0.533333in"
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg2511"
+   sodipodi:docname="test-icon.svg"
+   inkscape:version="0.92.2 2405546, 2018-03-11">
+  <metadata
+     id="metadata2517">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs2515" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1900"
+     inkscape:window-height="1394"
+     id="namedview2513"
+     showgrid="false"
+     inkscape:zoom="20"
+     inkscape:cx="25.599984"
+     inkscape:cy="25.599984"
+     inkscape:window-x="618"
+     inkscape:window-y="322"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2511" />
+  <path
+     id="Selection #1"
+     fill="none"
+     stroke="black"
+     stroke-width="1"
+     d="M 40.00,8.00            C 40.00,8.00 40.00,40.00 40.00,40.00              40.00,40.00 8.00,40.00 8.00,40.00              8.00,40.00 8.00,8.00 8.00,8.00              8.00,8.00 40.00,8.00 40.00,8.00 Z            M 10.00,10.00            C 10.00,10.00 10.00,23.00 10.00,23.00              10.00,23.00 23.00,23.00 23.00,23.00              23.00,23.00 23.00,10.00 23.00,10.00              23.00,10.00 10.00,10.00 10.00,10.00 Z            M 25.00,10.00            C 25.00,10.00 25.00,23.00 25.00,23.00              25.00,23.00 38.00,23.00 38.00,23.00              38.00,23.00 38.00,10.00 38.00,10.00              38.00,10.00 25.00,10.00 25.00,10.00 Z            M 10.00,25.00            C 10.00,25.00 10.00,38.00 10.00,38.00              10.00,38.00 23.00,38.00 23.00,38.00              23.00,38.00 23.00,25.00 23.00,25.00              23.00,25.00 10.00,25.00 10.00,25.00 Z            M 25.00,25.00            C 25.00,25.00 25.00,38.00 25.00,38.00              25.00,38.00 38.00,38.00 38.00,38.00              38.00,38.00 38.00,25.00 38.00,25.00              38.00,25.00 25.00,25.00 25.00,25.00 Z"
+     style="stroke:none;fill:#f2f2f2;fill-opacity:1" />
+</svg>

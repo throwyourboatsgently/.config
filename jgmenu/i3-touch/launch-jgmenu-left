@@ -1,0 +1,43 @@
+#!/bin/bash
+
+#this script places jgmenu in the center of left edge of display
+# before using, install dependencies (xwininfo xdotool)
+
+# my simple, noobish, manual way of finding height of menu is:
+#1. open menu
+#2. take screenshcot
+#3. open gimp
+#4. tick boxes show grid, snap to grid, under view heading
+#5. configure grid under image heading, set grid at 1px
+#6. select menu with selection tool
+#7. crop to selection under image heading
+#8. menu width and height are now displayed in px in titlebar of gimp
+
+# arguments after line_up will add or subtract from 0,height/2 position
+# if no arguments are made mouse will go to 0,height/2
+# to center your menu add half menu height as argument for ex:
+# line_up 0 192 (192 is half menu height for a 392px high menu)
+
+line_up () 
+{ 
+  vc=$(( $(xwininfo -root|sed '/Height/!d;s/.* //') / 2 ));
+  [[ -n $2 ]] && vc=$(( -$2 + vc ));
+  xdotool mousemove $(( $1 )) $vc
+}
+
+line_up 3 340
+
+cat ~/.config/jgmenu/i3-touch/i3-touch-menu | jgmenu --simple --config-file=~/.config/jgmenu/i3-touch/jgmenurc 
+
+#example run:
+#xwininfo -root|sed '/Height/!d' # display height is 1024 px
+#xdotool getmouselocation # current mouse location: 469,875
+#line_up
+#xdotool getmouselocation # current mouse location: 0,512
+#line_up 10
+#xdotool getmouselocation # current mouse location: 10,512
+#line_up 20 -10
+#xdotool getmouselocation # current mouse location: 20,522
+
+
+

@@ -1,0 +1,74 @@
+#this is the root menu:
+
+,panther_launcher,/home/ad2/.config/jgmenu/i3-touch/icons-dark/app-launcher.svg
+,^checkout(switch-to-workspace),/home/ad2/.config/jgmenu/i3-touch/icons-dark/switch-to-workspace.svg,
+,^checkout(move-to-workspace),/home/ad2/.config/jgmenu/i3-touch/icons-dark/window-to-workspace.svg
+,^checkout(move),/home/ad2/.config/jgmenu/i3-touch/icons-dark/move-window.svg,
+,^checkout(resize),/home/ad2/.config/jgmenu/i3-touch/icons-dark/window-resize.svg
+,i3-msg fullscreen toggle,/home/ad2/.config/jgmenu/i3-touch/icons-dark/window-fullscreen.svg
+,i3-msg floating toggle,/home/ad2/.config/jgmenu/i3-touch/icons-dark/window-duplicate.svg
+,i3-msg focus parent,/home/ad2/.config/jgmenu/i3-touch/icons-dark/focus-parent.svg
+,i3-msg split h,/home/ad2/.config/jgmenu/i3-touch/icons-dark/split-horizontal.svg
+,i3-msg split v,/home/ad2/.config/jgmenu/i3-touch/icons-dark/split-vertical.svg
+,^checkout(window-close),/home/ad2/.config/jgmenu/i3-touch/icons-dark/window-close.svg
+,^checkout(rotate),/home/ad2/.config/jgmenu/i3-touch/icons-dark/display-rotate.svg
+,^checkout(more),/home/ad2/.config/jgmenu/i3-touch/icons-dark/more.svg
+,^checkout(system),/home/ad2/.config/jgmenu/i3-touch/icons-dark/system-shutdown.svg
+
+
+#this is the content of submenus:
+
+,^tag(switch-to-workspace),/home/ad2/.config/jgmenu/i3-touch/icons-dark/switch-to-workspace.svg
+,i3-msg workspace 1,/home/ad2/.config/jgmenu/i3-touch/icons-dark/switch-to-workspace-1-no-box.svg
+,i3-msg workspace 2,/home/ad2/.config/jgmenu/i3-touch/icons-dark/switch-to-workspace-2-no-box.svg
+,i3-msg workspace 3,/home/ad2/.config/jgmenu/i3-touch/icons-dark/switch-to-workspace-3-no-box.svg
+,i3-msg workspace 4,/home/ad2/.config/jgmenu/i3-touch/icons-dark/switch-to-workspace-4-no-box.svg
+,i3-msg workspace 5,/home/ad2/.config/jgmenu/i3-touch/icons-dark/switch-to-workspace-5-no-box.svg
+,i3-msg workspace 6,/home/ad2/.config/jgmenu/i3-touch/icons-dark/switch-to-workspace-6-no-box.svg
+,i3-msg workspace 7,/home/ad2/.config/jgmenu/i3-touch/icons-dark/switch-to-workspace-7-no-box.svg
+,i3-msg workspace 8,/home/ad2/.config/jgmenu/i3-touch/icons-dark/switch-to-workspace-8-no-box.svg
+
+,^tag(move-to-workspace),/home/ad2/.config/jgmenu/i3-touch/icons-dark/window-to-workspace.svg
+,i3-msg "move container to workspace number 1; workspace 1",/home/ad2/.config/jgmenu/i3-touch/icons-dark/switch-to-workspace-1-no-box.svg
+,i3-msg "move container to workspace number 2; workspace 2",/home/ad2/.config/jgmenu/i3-touch/icons-dark/switch-to-workspace-2-no-box.svg
+,i3-msg "move container to workspace number 3; workspace 3",/home/ad2/.config/jgmenu/i3-touch/icons-dark/switch-to-workspace-3-no-box.svg
+,i3-msg "move container to workspace number 4; workspace 4",/home/ad2/.config/jgmenu/i3-touch/icons-dark/switch-to-workspace-4-no-box.svg
+,i3-msg "move container to workspace number 5; workspace 5",/home/ad2/.config/jgmenu/i3-touch/icons-dark/switch-to-workspace-5-no-box.svg
+,i3-msg "move container to workspace number 6; workspace 6",/home/ad2/.config/jgmenu/i3-touch/icons-dark/switch-to-workspace-6-no-box.svg
+,i3-msg "move container to workspace number 7; workspace 7",/home/ad2/.config/jgmenu/i3-touch/icons-dark/switch-to-workspace-7-no-box.svg
+,i3-msg "move container to workspace number 8; workspace 8",/home/ad2/.config/jgmenu/i3-touch/icons-dark/switch-to-workspace-8-no-box.svg
+
+,^tag(move),/home/ad2/.config/jgmenu/i3-touch/icons-dark/move-window.svg
+,i3-msg move up,/home/ad2/.config/jgmenu/i3-touch/icons-dark/go-up.svg
+,i3-msg move down,/home/ad2/.config/jgmenu/i3-touch/icons-dark/go-down.svg
+,i3-msg move left,/home/ad2/.config/jgmenu/i3-touch/icons-dark/go-previous.svg
+,i3-msg move right,/home/ad2/.config/jgmenu/i3-touch/icons-dark/go-next.svg
+
+,^tag(resize),/home/ad2/.config/jgmenu/i3-touch/icons-dark/window-resize.svg
+,i3-msg resize grow height 2 px or 2 ppt,/home/ad2/.config/jgmenu/i3-touch/icons-dark/window-resize-grow-height.svg
+,i3-msg resize shrink height 2 px or 2 ppt,/home/ad2/.config/jgmenu/i3-touch/icons-dark/window-resize-shrink-height.svg
+,i3-msg resize grow width 2 px or 2 ppt,/home/ad2/.config/jgmenu/i3-touch/icons-dark/window-resize-grow-width.svg
+,i3-msg resize shrink width 2 px or 2 ppt,/home/ad2/.config/jgmenu/i3-touch/icons-dark/window-resize-shrink-width.svg
+
+,^tag(window-close),/home/ad2/.config/jgmenu/i3-touch/icons-dark/window-close.svg
+,i3-msg kill,/home/ad2/.config/jgmenu/i3-touch/icons-dark/window-close.svg
+
+,^tag(rotate),/home/ad2/.config/jgmenu/i3-touch/icons-dark/display-rotate.svg
+,/home/ad2/.config/jgmenu/i3-touch/screen-rotation/screen-rotate-clockwise.sh,/home/ad2/.config/jgmenu/i3-touch/icons-dark/display-rotate-clockwise.svg
+,/home/ad2/.config/jgmenu/i3-touch/screen-rotation/screen-rotate-counter-clockwise.sh,/home/ad2/.config/jgmenu/i3-touch/icons-dark/display-rotate-counter-clockwise.svg
+
+,^tag(more),/home/ad2/.config/jgmenu/i3-touch/icons-dark/more.svg
+,pcmanfm,/home/ad2/.config/jgmenu/i3-touch/icons-dark/file-manager.svg
+,firefox,/home/ad2/.config/jgmenu/i3-touch/icons-dark/web-browser.svg
+,florence,/home/ad2/.config/jgmenu/i3-touch/icons-dark/onscreen-keyboard-alt-4.svg
+,gnome-calculator,/home/ad2/.config/jgmenu/i3-touch/icons-dark/calculator-alt-3.svg
+,termite,/home/ad2/.config/jgmenu/i3-touch/icons-dark/amarok_scripts.svg
+,termite -e htop -t "htop",/home/ad2/.config/jgmenu/i3-touch/icons-dark/system-monitor.svg
+
+,^tag(system),/home/ad2/.config/jgmenu/i3-touch/icons-dark/system-shutdown.svg
+,i3lock,/home/ad2/.config/jgmenu/i3-touch/icons-dark/system-lock-screen.svg
+,i3exit suspend,/home/ad2/.config/jgmenu/i3-touch/icons-dark/system-suspend.svg
+,i3exit hibernate,/home/ad2/.config/jgmenu/i3-touch/icons-dark/system-suspend-hibernate.svg
+,i3exit reboot,/home/ad2/.config/jgmenu/i3-touch/icons-dark/view-refresh.svg
+,i3exit shutdown,/home/ad2/.config/jgmenu/i3-touch/icons-dark/system-shutdown.svg
+
